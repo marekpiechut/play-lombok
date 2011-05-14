@@ -1,0 +1,4 @@
+self: play -> play-lombok 0.10.0-BETA2
+
+require:
+    - play -> 1.2
