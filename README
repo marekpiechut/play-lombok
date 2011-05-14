@@ -1,0 +1,3 @@
+This module add lombok to Play! so you can use all the the lombok annotations and 'val' keword in your Play! app.
+
+You will still need to install Lombok in your IDE, if you are using one.
