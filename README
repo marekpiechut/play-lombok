@@ -1,8 +1,10 @@
-This module add lombok to Play! so you can use all the the lombok annotations and 'val' keword in your Play! app.
+This module adds Lombok to Play! so you can use all the the Lombok annotations and 'val' keyword in your Play! app.
 
-To install it you can download the zip file and unzip it to your modules directory under you Play! installation.
+To install it you can download the zip file and unzip it to your modules directory under your Play! installation.
 
 Then add this to your dependencies.yml
    - play -> play-lombok 0.10.0-BETA2
+
+This has been tested with Play! 1.2.
 
 You will still need to install Lombok in your IDE, if you are using one.
