@@ -5,6 +5,6 @@ To install it you can download the zip file and unzip it to your modules directo
 Then add this to your dependencies.yml
    - play -> play-lombok 0.10.0-BETA2
 
-This has been tested with Play! 1.2.
+This has been tested with Play! 1.2 and 1.2.1
 
 You will still need to install Lombok in your IDE, if you are using one.
