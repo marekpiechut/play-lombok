@@ -1,4 +1,4 @@
-# Here you can create play commands that are specific to the module, and extend existing commands
+import os, os.path
 
 MODULE = 'lombok'
 VERSION = '0.10.0-BETA2'
