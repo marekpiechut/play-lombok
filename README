@@ -3,7 +3,7 @@ This module adds Lombok to Play! so you can use all the the Lombok annotations a
 To install it you can download the zip file and unzip it to your modules directory under your Play! installation.
 
 Then add this to your dependencies.yml
-   - play -> play-lombok 0.10.0-BETA2
+   - play -> lombok 0.10.0-BETA2
 
 This has been tested with Play! 1.2 and 1.2.1
 
