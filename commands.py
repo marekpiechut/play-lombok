@@ -25,7 +25,7 @@ def before(**kargs):
     env = kargs.get("env")
 
     if command in ALTERED_COMMANDS:
-        args.append('-javaagent:' + os.path.join(app.path, 'lib', LOMBOK_JAR))
+        args.append('-javaagent:' + os.path.join(app.path, 'lib', LOMBOK_JAR + '=ECJ'))
         args.append('-Xbootclasspath/a:' + os.path.join(app.path, 'lib', LOMBOK_JAR))
         args.append('-Xbootclasspath/a:' + os.path.join(env["basedir"], 'framework', 'lib', JDT_JAR))
 
