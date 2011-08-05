@@ -4,7 +4,7 @@ MODULE = 'lombok'
 VERSION = '0.10.0-RC3'
 JDT_JAR='org.eclipse.jdt.core-3.6.0.jar'
 LOMBOK_JAR='lombok-' + VERSION + '.jar'
-ALTERED_COMMANDS = ['run','test','auto-test','start','precompile','deploy']
+ALTERED_COMMANDS = ['run','test','auto-test','start','precompile','deploy', 'carbonate:new']
 
 # Commands that are specific to your module
 
