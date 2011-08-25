@@ -1,5 +1,5 @@
-self: play -> lombok 0.10.0-RC3
+self: play -> lombok 0.10.0
 
 require:
     - play
-    - org.projectlombok -> lombok 0.10.0-RC3
+    - org.projectlombok -> lombok 0.10.0
