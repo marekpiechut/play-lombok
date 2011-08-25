@@ -1,5 +1,4 @@
-self: play -> lombok 0.10.0
+self: play.modules -> lombok 1.2.3
 
 require:
     - play
-    - org.projectlombok -> lombok 0.10.0
