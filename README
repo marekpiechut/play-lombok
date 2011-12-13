@@ -10,7 +10,7 @@ Then add this to your dependencies.yml
 repositories:
   - play-modules :
         type:       http
-        artifact:   "http://play-modules.googlecode.com/files/[module]-[revision].zip"
+        artifact:   "http://play-modules.herokuapp.com/zips/[module]-[revision].zip"
         contains:
                     - play.module -> *
 
