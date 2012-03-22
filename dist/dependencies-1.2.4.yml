@@ -1,0 +1,6 @@
+self: github.marekpiechut -> lombok 1.2.4
+
+require:
+    - play
+    - org.projectlombok -> lombok [0.10,):
+    
