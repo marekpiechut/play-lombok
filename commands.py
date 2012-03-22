@@ -1,8 +1,7 @@
 import os, os.path
 
 MODULE = 'lombok'
-VERSION = '1.2.3'
-JDT_JAR='org.eclipse.jdt.core-3.6.0.jar'
+VERSION = '1.2.4'
 
 # Commands that are specific to your module
 
@@ -27,11 +26,8 @@ def before(**kargs):
     args = kargs.get("args")
     env = kargs.get("env")
     lombokJar = findjar(os.path.join(app.path, 'lib'))
-
+    
     args.append('-javaagent:' + lombokJar + '=ECJ')
-    args.append('-Xbootclasspath/a:' + lombokJar)
-    args.append('-Xbootclasspath/a:' + os.path.join(env["basedir"], 'framework', 'lib', JDT_JAR))
-
 
 # This will be executed after any command (new, run...)
 def after(**kargs):
